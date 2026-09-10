@@ -4,7 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base relativo: el sitio se sirve en https://dongrafff.github.io/sergio-arancibia-homepage/
+  // base relativo + outDir docs/: GitHub Pages (deploy from branch) solo permite path / o /docs
   base: "./",
+  build: { outDir: "docs" },
   plugins: [react(), tailwindcss()],
 });
