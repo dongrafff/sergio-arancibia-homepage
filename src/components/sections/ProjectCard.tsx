@@ -10,10 +10,10 @@ const TASK_ROWS = [
   { label: "Solicitudes adicionales", pct: 45 },
 ];
 const AUDIT_ROWS = [
-  { ok: true, text: "RUN 4.812 · completo" },
-  { ok: false, text: "RUN 4.977 · faltan 3 campos" },
-  { ok: true, text: "RUN 5.003 · consistente" },
-  { ok: false, text: "RUN 5.120 · duplicado detectado" },
+  { ok: true, text: "Periodo Q1 · completo" },
+  { ok: false, text: "Periodo Q2 · faltan 3 campos" },
+  { ok: true, text: "Periodo Q3 · consistente" },
+  { ok: false, text: "Periodo Q4 · duplicado detectado" },
 ];
 
 function VisualPrice() {
