@@ -24,6 +24,8 @@ export const site = {
   credentials: "Ingeniero Estadístico · MSc Bioestadística · MSc Data Science",
   location: "Santiago, Chile",
   email: "ser.arancibia@gmail.com",
+  // versión visible (obfuscar @ para que no lo raspéen buscadores/spam)
+  emailDisplay: "ser.arancibia(a)gmail.com",
 };
 
 export const navItems: NavItem[] = [

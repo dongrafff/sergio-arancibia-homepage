@@ -39,7 +39,7 @@ export function Contact() {
         <Reveal delay={240}>
           <div className="mt-8 flex justify-center">
             <Button href={mailto} size="lg" variant="primary">
-              {site.email}
+              {site.emailDisplay}
               <ArrowUpRight size={17} aria-hidden="true" />
             </Button>
           </div>

@@ -51,7 +51,7 @@ export function Footer() {
                 href={`mailto:${site.email}`}
                 className="rounded text-sm text-muted transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
               >
-                {site.email}
+                {site.emailDisplay}
               </a>
             </li>
             <li className="text-sm text-faint">{site.location}</li>
